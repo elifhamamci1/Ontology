@@ -1,0 +1,261 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://webprotege.stanford.edu/project/802fdaQVoy61EazvdxYRGv#"
+     xml:base="http://webprotege.stanford.edu/project/802fdaQVoy61EazvdxYRGv"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://webprotege.stanford.edu/project/802fdaQVoy61EazvdxYRGv"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/language -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/language"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R3eQYIcYlDzqzgo4HyPpbV -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R3eQYIcYlDzqzgo4HyPpbV">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R73cYqVh3YmU0OYGB0tXv11"/>
+        <rdfs:label xml:lang="tr">Halk müziği</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R73cYqVh3YmU0OYGB0tXv11 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R73cYqVh3YmU0OYGB0tXv11">
+        <rdfs:label xml:lang="tr">Müzik Türleri</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8GdfF9mm1WKBRgy88uII4j -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8GdfF9mm1WKBRgy88uII4j">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R73cYqVh3YmU0OYGB0tXv11"/>
+        <rdfs:label xml:lang="tr">Elektronik</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8gSpxXQkP6dFhhH6q7mCKb -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8gSpxXQkP6dFhhH6q7mCKb">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R3eQYIcYlDzqzgo4HyPpbV"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asım Kuzuluk</dc:creator>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amik ve Barak Uzun Havaları adlı albümde yayımlanmıştır.</dc:description>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Türkçe</dc:language>
+        <rdfs:label xml:lang="tr">Beymayıl</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.youtube.com/watch?v=OHvP6P38Lvo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9PTyOMwaFofC76hasHSxQ0 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9PTyOMwaFofC76hasHSxQ0">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8GdfF9mm1WKBRgy88uII4j"/>
+        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sascha Ring</dc:contributor>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apparat</dc:creator>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Walls adlı albümde yayımlanmıştır.</dc:description>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">İngilizce</dc:language>
+        <rdfs:label xml:lang="tr">Arcadia</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.youtube.com/watch?v=5Tbp0BQel4M"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9YzKyVpMKgfICIIHd4TMM8 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9YzKyVpMKgfICIIHd4TMM8">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9lJOjQKIXWI8qENNzKHGG3"/>
+        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Willie Dixon</dc:contributor>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luther Allison</dc:creator>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">İngilizce</dc:language>
+        <rdfs:label xml:lang="tr">Evil Is Going On</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.youtube.com/watch?v=QyVbiDJb2nk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9lJOjQKIXWI8qENNzKHGG3 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9lJOjQKIXWI8qENNzKHGG3">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R73cYqVh3YmU0OYGB0tXv11"/>
+        <rdfs:label xml:lang="tr">Blues</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9nvJX3exXP9gsxiRtq490x -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9nvJX3exXP9gsxiRtq490x">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RVJrp0icUVTaVvU3kq3us0"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bolero</dc:creator>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La vie est belle adlı albümde yayımlanmıştır.</dc:description>
+        <rdfs:label xml:lang="tr">Ravel</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.youtube.com/watch?v=Q4wb11w0ZHQ"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBjg8UKSeEnStpQbKcwoTms -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBjg8UKSeEnStpQbKcwoTms">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RVJrp0icUVTaVvU3kq3us0"/>
+        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ludwig van Beethoven</dc:contributor>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beethoven</dc:creator>
+        <rdfs:label xml:lang="tr">Moonlight Sonata</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.youtube.com/watch?v=4Tr0otuiQuU"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBxQTRMxwJ0PsMVP84sVDt4 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBxQTRMxwJ0PsMVP84sVDt4">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R3eQYIcYlDzqzgo4HyPpbV"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aşık Veysel</dc:creator>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Türkçe</dc:language>
+        <rdfs:label xml:lang="tr">Uzun İnce Bir Yoldayım</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.youtube.com/watch?v=7YZ2JmMUUg8"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCHcFsEOZUw96hofbqGrZpS -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCHcFsEOZUw96hofbqGrZpS">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8GdfF9mm1WKBRgy88uII4j"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Depeche Mode</dc:creator>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Playing the Angel adlı albümde yayımlanmıştır.</dc:description>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">İngilizce</dc:language>
+        <rdfs:label xml:lang="tr">Suffer Well</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.youtube.com/watch?v=SsKyxkfj8ak"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCIfuxIX5suqWVxxZqeNI7c -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCIfuxIX5suqWVxxZqeNI7c">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R3eQYIcYlDzqzgo4HyPpbV"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neşet Ertaş</dc:creator>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zülüf Dökülmüş Yüze adlı albümde yayımlanmıştır.</dc:description>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Türkçe</dc:language>
+        <rdfs:label xml:lang="tr">Gel Yanıma</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.youtube.com/watch?v=7YZ2JmMUUg8"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCv1SipjI1JiPknV8srDwsR -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCv1SipjI1JiPknV8srDwsR">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9lJOjQKIXWI8qENNzKHGG3"/>
+        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bruce B. Mccabe</dc:contributor>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jonny Land</dc:creator>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lie to Me adlı albümde yayımlanmıştır.</dc:description>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">İngilizce</dc:language>
+        <rdfs:label xml:lang="tr">Darker Side</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.youtube.com/watch?v=2TK3X2djj24"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RSUTkgZCuZ3wmXFtKr7Xjf -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RSUTkgZCuZ3wmXFtKr7Xjf">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8GdfF9mm1WKBRgy88uII4j"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Martin Garrix</dc:creator>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Animals adlı albümde yayımlanmıştır.</dc:description>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">İngilizce</dc:language>
+        <rdfs:label xml:lang="tr">Animals</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.youtube.com/watch?v=gCYcHz2k5x0"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RVJrp0icUVTaVvU3kq3us0 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RVJrp0icUVTaVvU3kq3us0">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R73cYqVh3YmU0OYGB0tXv11"/>
+        <rdfs:label xml:lang="tr">Klasik</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RZCArSJJq6rRJJNI4p6Vx8 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RZCArSJJq6rRJJNI4p6Vx8">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RVJrp0icUVTaVvU3kq3us0"/>
+        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jean-Baptiste Lully</dc:contributor>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vivaldi</dc:creator>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">İtalyanca</dc:language>
+        <rdfs:label xml:lang="tr">La Follia</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.youtube.com/watch?v=7v8zxoEoA_Q"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RtphCaUYngrXUUSYfxT34q -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RtphCaUYngrXUUSYfxT34q">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9lJOjQKIXWI8qENNzKHGG3"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jonny Lang</dc:creator>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lie to Me adlı albümde yayımlanmıştır.</dc:description>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">İngilizce</dc:language>
+        <rdfs:label xml:lang="tr">Lie to Me</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.youtube.com/results?search_query=lie+to+me"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
